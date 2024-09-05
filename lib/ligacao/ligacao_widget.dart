@@ -45,11 +45,11 @@ class _LigacaoWidgetState extends State<LigacaoWidget> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 SizedBox(
-                  width: MediaQuery.sizeOf(context).width,
-                  height: MediaQuery.sizeOf(context).height * 1,
+                  width: MediaQuery.sizeOf(context).width * 1.0,
+                  height: MediaQuery.sizeOf(context).height * 1.0,
                   child: custom_widgets.Meeting(
-                    width: MediaQuery.sizeOf(context).width,
-                    height: MediaQuery.sizeOf(context).height * 1,
+                    width: MediaQuery.sizeOf(context).width * 1.0,
+                    height: MediaQuery.sizeOf(context).height * 1.0,
                   ),
                 ),
               ],

@@ -45,13 +45,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             style: FlutterFlowTheme.of(context).headlineMedium.override(
                   fontFamily: 'Outfit',
                   color: Colors.white,
-                  fontSize: 22,
+                  fontSize: 22.0,
                   letterSpacing: 0.0,
                 ),
           ),
           actions: const [],
           centerTitle: false,
-          elevation: 2,
+          elevation: 2.0,
         ),
         body: SafeArea(
           top: true,
@@ -60,28 +60,30 @@ class _HomePageWidgetState extends State<HomePageWidget> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Align(
-                alignment: const AlignmentDirectional(0, 0),
+                alignment: const AlignmentDirectional(0.0, 0.0),
                 child: FFButtonWidget(
                   onPressed: () async {
                     context.pushNamed('ligacao');
                   },
                   text: 'Ligar',
                   options: FFButtonOptions(
-                    height: 40,
-                    padding: const EdgeInsetsDirectional.fromSTEB(24, 0, 24, 0),
-                    iconPadding: const EdgeInsetsDirectional.fromSTEB(0, 0, 0, 0),
+                    height: 40.0,
+                    padding:
+                        const EdgeInsetsDirectional.fromSTEB(24.0, 0.0, 24.0, 0.0),
+                    iconPadding:
+                        const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
                     color: FlutterFlowTheme.of(context).primary,
                     textStyle: FlutterFlowTheme.of(context).titleSmall.override(
                           fontFamily: 'Readex Pro',
                           color: Colors.white,
                           letterSpacing: 0.0,
                         ),
-                    elevation: 3,
+                    elevation: 3.0,
                     borderSide: const BorderSide(
                       color: Colors.transparent,
-                      width: 1,
+                      width: 1.0,
                     ),
-                    borderRadius: BorderRadius.circular(8),
+                    borderRadius: BorderRadius.circular(8.0),
                   ),
                 ),
               ),
